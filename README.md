@@ -28,11 +28,11 @@ npm install react-native-picker-select
 # if you see a `Invariant Violation: requireNativeComponent "RNCPicker" was not found in the UIManager` error:
 
 # React Native users
-npm install @react-native-community/picker
+npm install @react-native-picker/picker
 npx pod-install
 
 # Expo
-expo install @react-native-community/picker
+expo install @react-native-picker/picker
 ```
 
 ### Basic Usage
@@ -56,11 +56,11 @@ export const Dropdown = () => {
 
 ### Versioning
 
-| Version       | Notes                                                                                                                                                                   |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| >=&nbsp;8.0.0 | Uses [@react-native-community/picker](https://github.com/react-native-community/react-native-picker#readme). React Native 0.60 or above. If using Expo, SDK38 or above. |
-| >=&nbsp;3.0.0 | React v16.3 or above.                                                                                                                                                   |
-| <&nbsp;3.0.0  | React v16.2 or below.                                                                                                                                                   |
+| Version       | Notes                                                                                                                                                                |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| >=&nbsp;8.0.0 | Uses [@react-native-picker/picker](https://github.com/react-native-community/react-native-picker#readme). React Native 0.60 or above. If using Expo, SDK38 or above. |
+| >=&nbsp;3.0.0 | React v16.3 or above.                                                                                                                                                |
+| <&nbsp;3.0.0  | React v16.2 or below.                                                                                                                                                |
 
 ### Props
 

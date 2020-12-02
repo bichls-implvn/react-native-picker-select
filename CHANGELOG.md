@@ -18,7 +18,7 @@
 
 ##### Bugfix
 
--   Locked @react-native-community/picker to 1.6.0 to fix Expo issues
+-   Locked @react-native-picker/picker to 1.6.0 to fix Expo issues
 -   Add togglePicker method to Picker component typescript definition (#360)
 -   Fix wrong PickerProps import in index.d.ts (#352)
 -   Fixed inputWeb to be a TextStyle, not ViewStyle (#365)
@@ -29,7 +29,7 @@
 
 ##### Breaking Changes
 
--   Now using [@react-native-community/picker](https://github.com/react-native-community/react-native-picker#readme) under the hood (#340). For that reason, this library now requires React Native 0.60 or above. If using Expo, SDK38 or above is required.
+-   Now using [@react-native-picker/picker](https://github.com/react-native-community/react-native-picker#readme) under the hood (#340). For that reason, this library now requires React Native 0.60 or above. If using Expo, SDK38 or above is required.
 -   Replaced item prop `displayValue` with `inputLabel` (#336)
 
 ##### New
